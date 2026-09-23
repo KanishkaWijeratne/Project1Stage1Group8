@@ -4,6 +4,9 @@ import java.io.*;
 public class ClientList implements Serializable {
     private static final long serialVersionUID = 1L;
     private List clients = new LinkedList<Client>();
+    private static ClientList clientlist;
+    private static final String CLIENT_STRING = "C";
+    private static int idNum = 1;
 
     private ClientList(){}
 
@@ -16,16 +19,19 @@ public class ClientList implements Serializable {
         }
     }
 
-    public boolean insertClient(Client client){
+    public void insertClient(String name, String address){
+        String id = CLIENT_STRING + idNum;
+        idNum++;
+        Client client = new Client(id,name,address);
         clients.add(client);
-        return true;
+
     }
 
     public Iterator getClients(){
         return clients.iterator();
     }
 
-    public Client searc(String ClientID){
+    public Client search(String clientID){
         for (Client client : clients){
             if(client.getID().equals(clientID)){
                 return client;

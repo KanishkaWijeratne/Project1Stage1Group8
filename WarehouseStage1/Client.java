@@ -28,20 +28,21 @@ public class Client implements Serializable {
         return id;
     }
 
-    public void setName(String name){
-        this.name = name;
-    }
-
-    public void setAddress(String address){
-        this.address = address;
-    }
-
-    public void setId(String id){
-        this.id = id;
-    }
 
     public List<WishListItem> getWishList(){
         return wishlist;
+    }
+
+    public WishListItem addToWishList(Product product, Int quantity){
+        for( WishListItem item: wishlist){
+            if (item.getProduct().equals(product.getId())){
+                item.setQuantity(quantity);
+                return item;
+            }
+        }
+        WishListItem newItem = new WishListItem(product, quantity);
+        wishList.add(newItem);
+        return newItem;
     }
 
     public boolean equals(String id){
