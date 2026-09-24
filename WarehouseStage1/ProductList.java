@@ -3,7 +3,8 @@ import java.io.*;
 
 public class ProductList implements Serializable {
     private static final long serialVersionUID = 1L;
-    private List products = new LinkedList<Product>();
+    private List<Product> products = new LinkedList<Product>();
+    private static ProductList productList;
     private static final String PRODUCT_STRING = "P";
     private static int idNum = 1;
 
@@ -19,21 +20,21 @@ public class ProductList implements Serializable {
         }
     }
 
-    public void insertProduct(String name, int amountInStock, Double salePrice ){
+    public Product insertProduct(String name, int amountInStock, double salePrice){
         String id = PRODUCT_STRING + idNum;
         idNum++;
         Product product = new Product(id, name, amountInStock, salePrice);
         products.add(product);
-        
+        return product;
     }
 
-    public Iterator getProducts(){
+    public Iterator<Product> getProducts(){
         return products.iterator();
     }
 
-    public product search(String productID){
+    public Product search(String productID){
         for (Product product : products){
-            if(product.getID().equals(productID)){
+            if(product.getId().equals(productID)){
                 return product;
             }
         }

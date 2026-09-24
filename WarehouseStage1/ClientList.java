@@ -3,8 +3,8 @@ import java.io.*;
 
 public class ClientList implements Serializable {
     private static final long serialVersionUID = 1L;
-    private List clients = new LinkedList<Client>();
-    private static ClientList clientlist;
+    private List<Client> clients = new LinkedList<Client>();
+    private static ClientList clientList;
     private static final String CLIENT_STRING = "C";
     private static int idNum = 1;
 
@@ -19,21 +19,21 @@ public class ClientList implements Serializable {
         }
     }
 
-    public void insertClient(String name, String address){
+    public Client insertClient(String name, String address){
         String id = CLIENT_STRING + idNum;
         idNum++;
-        Client client = new Client(id,name,address);
+        Client client = new Client(id, name, address);
         clients.add(client);
-
+        return client;
     }
 
-    public Iterator getClients(){
+    public Iterator<Client> getClients(){
         return clients.iterator();
     }
 
     public Client search(String clientID){
         for (Client client : clients){
-            if(client.getID().equals(clientID)){
+            if(client.getId().equals(clientID)){
                 return client;
             }
         }
@@ -71,7 +71,5 @@ public class ClientList implements Serializable {
   public String toString() {
     return clients.toString();
   }
-
-
 
 }

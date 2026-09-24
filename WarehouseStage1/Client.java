@@ -13,7 +13,6 @@ public class Client implements Serializable {
         this.id = id;
         this.name = name;
         this.address = address;
-        //NEED to potentially add a field to initialize an empty wishlist?
     }
 
     public String getName(){
@@ -33,7 +32,7 @@ public class Client implements Serializable {
         return wishlist;
     }
 
-    public WishListItem addToWishList(Product product, Int quantity){
+    public WishListItem addToWishList(Product product, int quantity){
         for( WishListItem item: wishlist){
             if (item.getProduct().equals(product.getId())){
                 item.setQuantity(quantity);
@@ -41,7 +40,7 @@ public class Client implements Serializable {
             }
         }
         WishListItem newItem = new WishListItem(product, quantity);
-        wishList.add(newItem);
+        wishlist.add(newItem);
         return newItem;
     }
 
