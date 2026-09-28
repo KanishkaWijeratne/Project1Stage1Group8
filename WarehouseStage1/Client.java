@@ -34,7 +34,7 @@ public class Client implements Serializable {
 
     public WishListItem addToWishList(Product product, int quantity){
         for( WishListItem item: wishlist){
-            if (item.getProduct().equals(product.getId())){
+            if (item.getProduct().getId().equals(product.getId())){
                 item.setQuantity(quantity);
                 return item;
             }
