@@ -1,13 +1,28 @@
-import java.util.*;
-import java.io.*;
-
-public class WishListItem implements Serializable {
-    private static final long serialVersionUID = 1L;
-    private Product product;
+/** One product and the quantity desired by a client. */
+public class WishListItem {
+    private final Product product;
     private int quantity;
 
+    /**
+     * Creates an entry without reserving or changing product stock.
+     * @throws IllegalArgumentException if product is null or quantity is not positive
+     */
     public WishListItem(Product product, int quantity) {
+        if (product == null) {
+            throw new IllegalArgumentException("Product must not be null.");
+        }
+        if (quantity <= 0) {
+            throw new IllegalArgumentException("Quantity must be positive.");
+        }
         this.product = product;
+        this.quantity = quantity;
+    }
+
+    /** Replaces the desired quantity; it does not add to the previous value. */
+    public void setQuantity(int quantity) {
+        if (quantity <= 0) {
+            throw new IllegalArgumentException("Quantity must be positive.");
+        }
         this.quantity = quantity;
     }
 
@@ -17,13 +32,5 @@ public class WishListItem implements Serializable {
 
     public int getQuantity() {
         return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public String toString() {
-        return "Product " + product.getName() + " quantity " + quantity;
     }
 }
