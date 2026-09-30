@@ -8,6 +8,25 @@ public class Client implements Serializable {
     private String name;
     private String address;
     private List<WishListItem> wishlist = new LinkedList<WishListItem>();
+    private final List<Transaction> transactions = new LinkedList<>();
+
+    public List<Transaction> getTransactions(){
+        return transactions;
+    }
+
+    public Transaction addTransaction(double amount){
+        Transaction newTransaction = new Transaction(amount);
+        transactions.add(newTransaction);
+        return newTransaction;
+    }
+
+    public double getBalance(){
+        double balance = 0.0;
+        for (Transaction transaction : transactions){
+            balance += transaction.getAmount();
+        }
+        return balance;
+    }
 
     public Client(String id, String name, String address){
         this.id = id;

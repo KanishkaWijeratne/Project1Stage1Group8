@@ -40,5 +40,29 @@ public class Transaction_Test {
     System.out.println("Expected output of transaction2's getAmount(): 250.00" + "\n");
     System.out.println("Actual output of transaction2's getAmount():" + transaction2.getAmount() + "\n");
 
+    testClientLedger();
 }
+
+  private static void testClientLedger() {
+    System.out.println("\nClient transaction ledger");
+    Client client = new Client("C1", "Client 1", "Address 1");
+    Client otherClient = new Client("C2", "Client 2", "Address 2");
+    check("new client's balance starts at $0.00",
+        client.getTransactions().isEmpty() && client.getBalance() == 0.0);
+
+    client.addTransaction(25.50);
+    client.addTransaction(10.25);
+    check("balance is the sum of transaction amounts",
+        client.getTransactions().size() == 2
+                && Math.abs(client.getBalance() - 35.75) < 0.000001);
+    check("another client's ledger and balance remain independent",
+        otherClient.getTransactions().isEmpty() && otherClient.getBalance() == 0.0);
+  }
+
+  private static void check(String label, boolean condition) {
+    System.out.println((condition ? "PASS " : "FAIL ") + label);
+    if (!condition) {
+      throw new AssertionError(label);
+    }
+  }
 }

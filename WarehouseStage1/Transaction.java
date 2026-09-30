@@ -9,6 +9,10 @@ private double amount;
 private String date;
 
 
+    public Transaction(double amount) {
+        this(null, amount);
+    }
+
     public Transaction(String date, double amount) {
         this.date = date;
         this.amount = amount;
