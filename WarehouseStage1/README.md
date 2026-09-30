@@ -8,3 +8,4 @@ Run the command from the `WarehouseStage1` directory to compile and run the test
 javac *.java && java WarehouseTest > warehouse-test-output.txt
 ```
 
+Note that the initial balance of all clients is 0.00 as they have not created a transaction yet. 
