@@ -1,0 +1,94 @@
+Script started on 2026-09-30 18:28:40-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="90" LINES="9"]
+[?u[>0q]11;?\[?1049hP+q696e646e\P+q71756572792d6f732d6e616d65\[?1049l[0c[m[1m[32m           [30m.[32m-------------------------:[m                    [m[1m[32muser[m@[1m[32mcachyos-x8664[m
+[1m[32m          .[36m+=[32m========================.[m                    ------------------
+[1m[32m         :[36m++[32m===[36m++===[32m===============-       :[36m++[32m-[m           [m[1m[36mOS[m: [mCachyOS x86_64
+[1m[32m        :[36m*++[32m====[36m+++++==[32m===========-        .==:[m           [m[1m[36mHost[m: [m21B5003XUS (ThinkPad L13 Yoga Gen 3)
+[1m[32m       -[36m*+++[32m=====[36m+***++=[32m=========:[m                        [m[1m[36mKernel[m: [mLinux 7.2.7-1-cachyos
+[1m[32m      =[36m*++++=[32m=======------------:[m                         [m[1m[36mUptime[m: [m1 hour, 36 mins
+[1m[32m     =[36m*+++++=[32m====-                     [30m...[32m[m                [m[1m[36mPackages[m: [m1513 (pacman)
+[1m[32m   .[36m+*+++++[32m=-===:                    .[36m=+++=[32m:[m              [m[1m[36mShell[m: [mfish 4.9.3
+[1m[32m  :[36m++++[32m=====-==:                     -***[36m**[32m+[m              [m[1m[36mDisplay (AUO6693)[m: [m1920x1200 @ 1.5x in 13", 60 Hz [Built-in] *
+[1m[32m :[36m++=[32m=======-=.                      .=+**+[30m.[32m[m              [m[1m[36mDisplay (K3-1)[m: [m1920x1080 @ 1.34x in 15", 60 Hz [External]
+[1m[32m.[36m+[32m==========-.                          [30m.[32m[m                 [m[1m[36mDesktop Environment[m: [mKDE Plasma 6.7.5
+[1m[32m :[36m+++++++[32m====-                                [30m.[32m--==-[30m.[32m[m     [m[1m[36mWindow Manager[m: [mKWin (Wayland)
+[1m[32m  :[36m++[32m==========.                             [30m:[36m+++++++[32m[30m:[m    [m[1m[36mWM Theme[m: [mBreeze
+[1m[30m   [32m.-===========.                            =*****+*+[m    [m[1m[36mTheme[m: [mBreeze (Dark) [Qt], Breeze-Dark [GTK2], Breeze [GTK3]
+[1m[32m    [32m.-===========:                           .+*****+:[m    [m[1m[36mIcons[m: [mbreeze-dark [Qt], breeze-dark [GTK2/3/4]
+[1m[32m      [32m-=======[36m++++[32m:::::::::::::::::::::::::-:  [30m.[32m---:[m      [m[1m[36mFont[m: [mNoto Sans (10pt) [Qt], Noto Sans (10pt) [GTK2/3/4]
+[1m[32m       :======[36m++++[32m====[36m+++******************=.[m             [m[1m[36mCursor[m: [mcapitaine (24px)
+[1m[36m        [32m:=====[36m+++[32m==========[36m++++++++++++++*-[m               [m[1m[36mTerminal[m: [mcode 1.138.0
+[1m[36m         [32m.====[36m++[32m==============[36m++++++++++*-[m                [m[1m[36mCPU[m: [m12th Gen Intel(R) Core(TM) i7-1255U (4+8) @ 4.70 GHz
+[1m[36m          [32m.===[36m+[32m==================[36m+++++++:[m                 [m[1m[36mGPU[m: [mIntel Iris Xe Graphics @ 1.25 GHz [Integrated]
+[1m[36m           [32m.-=======================[36m+++:[m                  [m[1m[36mMemory[m: [m10.32 GiB / 15.31 GiB ([93m67%[m)
+[1m[36m             [30m..........................[m                   [m[1m[36mSwap[m: [m37.72 MiB / 15.31 GiB ([32m0%[m)
+                                                          [m[1m[36mDisk (/)[m: [m471.06 GiB / 472.94 GiB ([91m100%[m) - btrfs
+                                                          [m[1m[36mLocal IP (wlan0)[m: [m10.30.85.104/22
+                                                          [m[1m[36mBattery (5B10W51849)[m: [m[32m94%[m [AC Connected, Charging]
+                                                          [m[1m[36mLocale[m: [men_US.UTF-8
+                                                          
+                                                          [m[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+                                                          [100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
+[m]7;file://cachyos-x8664/home/user/CSCI%20430%20v2/Project1Repo/Project1Stage1Group8/WarehouseStage1[K]0;~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1 - fish\[m]11;?\[6n[0c[?2004h[?2031h[=5u[K]133;A;click_events=1\[34m~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1 [90mmain[90m* [36m⇣
+[35m❯[m ]133;B\[K[2Cj[3C[91mj[39m[3C[90mava WarehouseTest.java > warehouse-test-output.txt[39m[3C[91ma[90mva WarehouseTest.java > warehouse-test-output.txt[39m[4C[91mv[90ma WarehouseTest.java > warehouse-test-output.txt[39m[5C[91ma[90m WarehouseTest.java > warehouse-test-output.txt[39m[6C[4Djava[90m WarehouseTest.java > warehouse-test-output.txt[39m[6Cc[K[7C[90m *.java[39m[7C [90m*.java[39m[8C [90m*.java[39m[8C*[90m.java[39m[9C[96m*[90m.java[39m[9C[96m.[90mjava[39m[10C[36m.[90mjava[39m[10C[36mj[90mava[39m[11C[36ma[90mva[39m[12C[36mv[90ma[39m[13C[36ma[39m[14C[14C[?2004l[?2031l[=0u[14C
+[m]133;C;cmdline_url=javac%20%2A.java\]0;~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1: javac *.java - javac\[m]133;D;0\[?25h[2m⏎[m                                                                                         ⏎ [K[K
+]7;file://cachyos-x8664/home/user/CSCI%20430%20v2/Project1Repo/Project1Stage1Group8/WarehouseStage1]0;~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1 - fish\[m]11;?\[6n[0c[?2004h[?2031h[=5u[K]133;A;click_events=1\[34m~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1 [90mmain[90m* [36m⇣
+[35m❯[m ]133;B\[K[2Cj[3C[90mavac *.java[39m[3C[91mj[90mavac *.java[39m[3C[91ma[90mvac *.java[39m[4C[91mv[90mac *.java[39m[5C[91ma[90mc *.java[39m[6C[4Djava[90mc *.java[39m[6C [K[7C[90mWarehouseTest.java > warehouse-test-output.txt[39m[7C [90mWarehouseTest.java > warehouse-test-output.txt[39m[7CW[90marehouseTest.java > warehouse-test-output.txt[39m[8C[36;4mW[90;24marehouseTest.java > warehouse-test-output.txt[39m[8C[36;4ma[90;24mrehouseTest.java > warehouse-test-output.txt[39m[9C[36;4mr[90;24mehouseTest.java > warehouse-test-output.txt[39m[10C[36;4me[90;24mhouseTest.java > warehouse-test-output.txt[39m[11C[36;4mh[90;24mouseTest.java > warehouse-test-output.txt[39m[12C[36;4mo[90;24museTest.java > warehouse-test-output.txt[39m[13C[36;4mu[90;24mseTest.java > warehouse-test-output.txt[39m[14C[36;4ms[90;24meTest.java > warehouse-test-output.txt[39m[15C[36;4me[90;24mTest.java > warehouse-test-output.txt[39m[16C[36;4mT[90;24mest.java > warehouse-test-output.txt[39m[17C[36;4me[90;24mst.java > warehouse-test-output.txt[39m[18C[36;4ms[90;24mt.java > warehouse-test-output.txt[39m[19C[36;4mt[90;24m.java > warehouse-test-output.txt[39m[20C[36;4m.[90;24mjava > warehouse-test-output.txt[39m[21C[?2004l[?2031l[=0u[?2004h[?2031h[=5u[K[20C[?2004l[?2031l[=0u
+[m]133;C;cmdline_url=java%20WarehouseTest\]0;~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1: java WarehouseTest - java\[mWAREHOUSE TEST WALKTHROUGH
+
+--- Create five clients ---
+ID   | Name         | Address      | Balance     
+C1   | Client 1     | Address 1    | $0.00       
+C2   | Client 2     | Address 2    | $0.00       
+C3   | Client 3     | Address 3    | $0.00       
+C4   | Client 4     | Address 4    | $0.00       
+C5   | Client 5     | Address 5    | $0.00       
+
+--- Create five products ---
+ID   | Name         | Quantity | Unit price
+P1   | Product 1    | 10       | $1.00     
+P2   | Product 2    | 20       | $2.00     
+P3   | Product 3    | 30       | $3.00     
+P4   | Product 4    | 40       | $4.00     
+P5   | Product 5    | 50       | $5.00     
+
+--- C1 wishlist: 5 each of P1, P3, P5 ---
+C1 wishlist
+ID   | Product      | Quantity
+P1   | Product 1    | 5       
+P3   | Product 3    | 5       
+P5   | Product 5    | 5       
+
+--- C2 wishlist: 7 each of P1, P2, P4 ---
+C2 wishlist
+ID   | Product      | Quantity
+P1   | Product 1    | 7       
+P2   | Product 2    | 7       
+P4   | Product 4    | 7       
+
+--- C3 wishlist: 6 each of P1, P2, P5 ---
+C3 wishlist
+ID   | Product      | Quantity
+P1   | Product 1    | 6       
+P2   | Product 2    | 6       
+P5   | Product 5    | 6       
+
+--- Add P3 and P5 to C2's wishlist, quantity 7 each ---
+C2 wishlist
+ID   | Product      | Quantity
+P1   | Product 1    | 7       
+P2   | Product 2    | 7       
+P4   | Product 4    | 7       
+P3   | Product 3    | 7       
+P5   | Product 5    | 7       
+
+--- C3 wishlist after C2 updates ---
+C3 wishlist
+ID   | Product      | Quantity
+P1   | Product 1    | 6       
+P2   | Product 2    | 6       
+P5   | Product 5    | 6       
+]133;D;0\[?25h[2m⏎[m                                                                                         ⏎ [K[K
+]7;file://cachyos-x8664/home/user/CSCI%20430%20v2/Project1Repo/Project1Stage1Group8/WarehouseStage1]0;~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1 - fish\[m]11;?\[6n[0c[?2004h[?2031h[=5u[K]133;A;click_events=1\[34m~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1 [90mmain[90m* [36m⇣
+[35m❯[m ]133;B\[K[2Ce[3C[90mcho $XDG_CURRENT_DESKTOP[39m[3C[91me[90mcho $XDG_CURRENT_DESKTOP[39m[3C[91mx[39m[K[4C[90ma [39m[4C[91mi[39m[K[5C[90mt [39m[5C[91mt[90m [39m[6C[4Dexit[90m [39m[6C[?2004l[?2031l[=0u[K[6C
+[m]133;C;cmdline_url=exit\]0;~/CSCI 430 v2/Project1Repo/Project1Stage1Group8/WarehouseStage1: exit - exit\[m]133;D;0\[?25h[m
+Script done on 2026-09-30 18:29:23-05:00 [COMMAND_EXIT_CODE="0"]
