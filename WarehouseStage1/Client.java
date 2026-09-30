@@ -14,12 +14,6 @@ public class Client implements Serializable {
         return transactions;
     }
 
-    public Transaction addTransaction(double amount){
-        Transaction newTransaction = new Transaction(amount);
-        transactions.add(newTransaction);
-        return newTransaction;
-    }
-
     public double getBalance(){
         double balance = 0.0;
         for (Transaction transaction : transactions){
